@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pixie.pixie.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/twenty"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pixie"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="70dp"
+        android:textColor="@color/orange"
+        android:layout_centerHorizontal="true"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/cm"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="153dp"
+        android:src="@drawable/lb"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/im"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="270dp"
+        android:src="@drawable/view"/>
+
+</RelativeLayout>
