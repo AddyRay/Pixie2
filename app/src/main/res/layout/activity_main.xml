@@ -20,7 +20,7 @@
         android:text="Pixie"
         android:textStyle="bold"
         android:fontFamily="cursive"
-        android:textSize="70sp"
+        android:textSize="80sp"
         android:textColor="@color/orange"
         android:layout_centerHorizontal="true"
 
@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/camera_icon"
         android:src="@drawable/cm"
+        android:background="@null"
         android:layout_alignParentStart="true"
         android:layout_marginStart="64dp"
         />
@@ -43,7 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/gallery_icon"
-        android:src="@drawable/lb"
+        android:src="@drawable/lbc"
+        android:background="@null"
         android:layout_centerHorizontal="true"
 
         />
@@ -51,7 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/collage_icon"
-        android:src="@drawable/view"
+        android:src="@drawable/col"
+        android:background="@null"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="64dp"
 
