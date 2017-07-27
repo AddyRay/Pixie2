@@ -20,9 +20,9 @@
         android:fontFamily="cursive"
         android:text="Pixie"
         android:textColor="@color/orange"
-        android:textSize="70sp"
-        android:textStyle="bold"
-        />
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginStart="64dp"
+            android:background="@null"
             android:src="@drawable/cm" />
 
         <ImageButton
@@ -43,8 +44,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/lb"
-            />
+            android:background="@null"
+            android:src="@drawable/lbc" />
 
         <ImageButton
             android:id="@+id/collage_icon"
@@ -52,7 +53,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="64dp"
-            android:src="@drawable/view"
-            />
+            android:background="@null"
+            android:src="@drawable/col"/>
+
     </RelativeLayout>
 </RelativeLayout>
