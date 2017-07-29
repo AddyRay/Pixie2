@@ -1,64 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pixie.pixie.MainActivity">
+    tools:context="com.pixie.pixie.LaunchActivity">
 
     <ImageView
         android:id="@+id/image_first"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/twenty"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/twenty" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pixie"
-        android:textStyle="bold"
-        android:fontFamily="cursive"
-        android:textSize="80sp"
-        android:textColor="@color/orange"
         android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Pixie"
+        android:textColor="@color/orange"
+        android:textSize="80sp"
+        android:textStyle="bold" />
 
-        />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_centerVertical="true"
+        android:orientation="horizontal"
         android:paddingTop="80dp">
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/camera_icon"
-        android:src="@drawable/cm"
-        android:background="@null"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="64dp"
-        />
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/gallery_icon"
-        android:src="@drawable/lbc"
-        android:background="@null"
-        android:layout_centerHorizontal="true"
 
-        />
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/collage_icon"
-        android:src="@drawable/col"
-        android:background="@null"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="64dp"
+        <ImageButton
+            android:id="@+id/camera_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="64dp"
+            android:background="@null"
+            android:src="@drawable/cm" />
 
-        />
+        <ImageButton
+            android:id="@+id/gallery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:src="@drawable/lbc" />
+
+        <ImageButton
+            android:id="@+id/collage_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="64dp"
+            android:background="@null"
+            android:src="@drawable/col"/>
+
     </RelativeLayout>
-
 </RelativeLayout>
